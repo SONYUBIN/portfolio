@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+
+*{margin:0; padding:0;}
+ol,ul{list-style:none;}
+
+a:link,a:visited,a:hover,a:active{text-decoration: none; color:#000;}
+
+body{font-family:'Noto Sans KR'; font-size:16px;  color:#000; line-height:26px; min-width: 1400px; overflow-x: hidden; }
+
+#header{width:1400px; margin: 0 auto; height:150px; position: relative; }
+
+
+#header .util{width:1200px; margin:0 auto; }
+#header .util li{float:left; margin-left:20px;}
+#header .util li a {display:block; font-weight:lighter; font-size:15px; position:relative; left:1050px; top:25px;}
+
+
+
+/*gnb 메뉴*/
+#header #gnb {width:130%; height:70px; background:url('../images/main/main_img_menu.jpg') no-repeat center top; position:absolute; top:80px; right:-250px; z-index: 99999; margin: 0 auto; }
+#header #gnb::after {content: ""; clear: both; display:block; }
+#header #gnb > li{float:left; position:relative; left: 400px; }
+#header #gnb > li >  a {display:inline-block; padding:30px 50px; color:#fff;  font-size:18px; font-weight:bold; }
+#header #gnb > li:hover .dp2{display: block;}
+
+
+#header #gnb .dp2 {background:#B1B1B1; padding:10px; margin-top:-17px;    }
+#header #gnb .dp2 > li > a {display:inline-block; padding:5px 10px; background:#B1B1B1; color:#fff; font-size:15px; font-weight:lighter; text-align:center; }
+#header #gnb .dp2 > li > a:hover{color:#000;}
+
+
+#header #gnb > #gnb2 > li {float:left;}
+#header #gnb > #gnb2 > li >a {margin-left:30px; font-size:18px; font-weight:normal; color:#fff; position:relative; left:650px; top:25px;}
+#header h1{position: absolute; top:100px; left:-130px; z-index:99999;}
+.container {margin:0 auto; width:1500px; height:30px; border-bottom:1px solid #707070; opacity:20%;}
+
+
+
+/*로그인*/
+#home {width: 1200px; margin:0 auto;}
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; }
+#home .menu li a {font-size:17px;}
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top:3px;}
+#home .login {font-weight:bold;} 
+
+#login {width: 460px; height: 800px; margin-left:50%; transform:translate(-50%, 18%);}
+#login h2 {font-size:40px; font-weight: lighter; text-align: center; padding-bottom: 50px;}
+#login .member li {float: left;}
+#login .member button {width:230px; height:58px; background: #fff; border:1px solid #000; margin-bottom: 12px;}
+#login .member button:hover {background:#000; color:#fff;}
+#login .member button a {color:#000;}
+#login .member button a:hover {color:#fff;}
+
+#login li {padding:0 0 10px;}
+#login li [type="text"] {width:97%; height: 46px; border:1px solid #000;}
+#login li [type="password"] {width:97%; height: 46px; border:1px solid #000;}
+#login li [placeholder] {padding-left: 10px;}
+#login li [for="chk1"] {font-size:14px;  padding-left: 10px;}
+#login button {width:100%; height:55px; background:#7293AA; border: none; margin-top: 20px; }
+#login button a{color:#fff; font-size:16px;}
+#login .text {text-align: left; }
+#login .text li {float: left;}
+#login .text li a {font-size:14px; padding-left:0px; }
+#login .password{padding-left: 20px;}
+#login .text li > a > span {padding-left:238px;}
+#login .sns li {float: left; padding-left: 12px;}
+#login .sns button {border:0px; width:212px; height:40px; background: #fff; border:1px solid #000; }
+#login .sns > li > button > a {color:#000; font-size:14px; padding-top:50px;}
+#login .sns span {position:relative; bottom:6px; padding-left:8px;}
+
+
+
+/*회원가입*/
+#home {width:1200px;}
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .join {font-weight:bold;} 
+
+#join {width: 900px; height: 850px; margin-left:50%; transform:translate(-50%, 18%); }
+#join h2 {font-size:40px; font-weight: lighter; text-align: center; padding-bottom: 50px;}
+
+#join .join_box1 {width:415px; height: 470px; border:1px solid #707070; float:left; margin-left:20px;}
+#join .join_box2 {width:415px; height: 470px; border:1px solid #707070; float:left; margin-left:30px;}
+
+#join .contents {text-align: center;}
+#join .contents h2 {font-size:22px; padding-top: 80px;}
+#join .contents li {margin-top: -30px;}
+#join .text {font-size:14px; color:#707070; padding-top:20px;}
+#join .button {width: 140px; height: 40px; box-sizing: border-box; background:#646262; margin: 40px 140px 40px }
+#join .button:hover {background:#000;}
+#join .button a {color:#fff; font-size: 13px; }
+
+
+
+
+/*마이페이지*/
+#home { width:1200px; margin: 0 auto;}
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-top: 66px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .join {font-weight:bold;}
+
+#mypage {width:1100px; height: 900px; margin-left:50%; transform:translate(-50%, 15%);}
+#mypage h2 {font-size:40px; font-weight: lighter; text-align: center; padding-bottom: 50px;}
+#mypage .icon {text-align: center;}
+
+#mypage .blocks {margin-left: 90px;}
+#mypage .block{width:260px; height: 170px; border:1px solid #707070; margin:20px;  float: left;}
+#mypage .block li {text-align: center; margin-top: 30px; }
+#mypage .text{font-size:17px; }
+#mypage .text span {position: relative; bottom:10px;}
+#mypage .text span1 {position:relative; top:10px;}
+
+
+
+
+/*브랜드*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+#home .brand_name {font-weight:bold;}
+
+#brand {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#brand h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+#brand .brands {width:1200px; height:50px; margin:0 auto; }
+#brand .brands li {float: left; position:relative; left:160px;}
+#brand .brands > li > a {padding-left:30px;}
+#brand .brands span {text-decoration:underline;}
+
+#brand .best_list {width:1200px; height:1900px; }
+#brand .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#brand .best_list li:nth-child(5),#brand .best_list li:nth-child(9),#brand .best_list li:nth-child(13) { clear: both; }
+#brand .best_list li a {padding-left:20px; }
+
+
+#brand .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#brand .new_name {font-weight: bold; font-size:14px;}
+#brand .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#brand .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#brand .sale_box {position:relative; left:195px; top:-75px;}
+#brand .heart {font-size:13px; float:right; margin-top:-75px; }
+#brand .heart span{position:relative; top:-2px; left:2px;}
+#brand .heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#brand .heart_icon span {position: relative; left:4px; }
+#brand .price {font-size:13px; padding-left:20px;}
+
+
+/*paging*/
+#brand .paging {text-align: center; margin:130px 0 150px 0; }
+#brand .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px; }
+#brand .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#brand .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#brand .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#brand .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#brand .paging li.on {background:#758246; border:1px solid #758246;}
+#brand .paging li.on a {color:#fff;}
+
+
+
+
+
+
+/*여성*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+
+#woman {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#woman h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+#woman .brands {width:1200px; height:50px; margin:0 auto; }
+#woman .brands li {float: left; position:relative; left:200px;}
+#woman .brands > li > a {padding-left:30px; font-size:17px;}
+#woman .brands span {text-decoration:underline;}
+
+#woman .best_list {width:1200px; height:1900px; }
+#woman .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#woman .best_list li:nth-child(5),#woman .best_list li:nth-child(9),#woman.best_list li:nth-child(13) { clear: both; }
+#woman .best_list li a {padding-left:20px; }
+
+
+#woman .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#woman .new_name {font-weight: bold; font-size:14px;}
+#woman .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#woman .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#woman .sale_box {position:relative; left:195px; top:-75px;}
+#woman .heart {font-size:13px; float:right; margin-top:-75px; }
+#woman .heart span{position:relative; top:-2px; left:2px;}
+#woman .heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#woman .heart_icon span {position: relative; left:4px; }
+#woman .price {font-size:13px; padding-left:20px;}
+
+/*paging*/
+#woman .paging {text-align: center; margin:130px 0 150px 0;}
+#woman .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#woman .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#woman .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#woman .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#woman .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#woman .paging li.on {background:#758246; border:1px solid #758246;}
+#woman .paging li.on a {color:#fff;}
+
+
+
+
+/*남성*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+
+#man {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#man h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+#man .brands {width:1200px; height:50px; margin:0 auto; }
+#man .brands li {float: left; }
+#man .brands > li > a {padding-left:30px; position:relative; left:290px; font-size:17px;}
+#man .brands span {text-decoration:underline;}
+
+
+#man .best_list {width:1200px; height:1900px; }
+#man .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#man .best_list li:nth-child(5),#man .best_list li:nth-child(9),#man.best_list li:nth-child(13) { clear: both; }
+#man .best_list li a {padding-left:20px; }
+
+
+#man .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#man .new_name {font-weight: bold; font-size:14px;}
+#man .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#man .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#man .sale_box {position:relative; left:195px; top:-75px;}
+#man .heart {font-size:13px; float:right; margin-top:-75px; }
+#man .heart span{position:relative; top:-2px; left:2px;}
+#man.heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#man .heart_icon span {position: relative; left:4px; }
+#man .price {font-size:13px; padding-left:20px;}
+
+/*paging*/
+#man .paging {text-align: center; margin:130px 0 150px 0;}
+#man .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#man .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#man .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li.on {background:#758246; border:1px solid #758246;}
+#man .paging li.on a {color:#fff;}
+ .paging {text-align: center; margin:130px 0 150px 0;}
+#woman .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#man .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#man .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#man .paging li.on {background:#758246; border:1px solid #758246;}
+#man .paging li.on a {color:#fff;}
+
+
+
+
+/*아동*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+
+#kid {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#kid h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+#kid .brands_kid {width:300px; height:40px; margin:0 auto; }
+#kid .brands_kid li {float:left; padding-left:20px; }
+#kid .brands_kid li a {font-size:17px;}
+#kid .brands_kid span {text-decoration:underline;}
+
+#kid .best_list {width:1200px; height:1900px; }
+#kid .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#kid .best_list li:nth-child(5),#kid .best_list li:nth-child(9),#kid .best_list li:nth-child(13) { clear: both; }
+#kid .best_list li a {padding-left:20px; }
+
+
+#kid .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#kid .new_name {font-weight: bold; font-size:14px;}
+#kid .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#kid .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#kid .sale_box {position:relative; left:195px; top:-75px;}
+#kid .heart {font-size:13px; float:right; margin-top:-75px; }
+#kid .heart span{position:relative; top:-2px; left:2px;}
+#kid .heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#kid .heart_icon span {position: relative; left:4px; }
+#kid .price {font-size:13px; padding-left:20px;}
+
+/*paging*/
+#kid .paging {text-align: center; margin:130px 0 150px 0;}
+#kid .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#kid .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#kid .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li.on {background:#758246; border:1px solid #758246;}
+#kid .paging li.on a {color:#fff;}
+ .paging {text-align: center; margin:130px 0 150px 0;}
+#woman .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#kid .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#kid .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#kid .paging li.on {background:#758246; border:1px solid #758246;}
+#kid .paging li.on a {color:#fff;}
+
+
+
+/*잡화*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+
+#goods {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#goods h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+
+#goods .brands_goods {width:400px; height:40px; margin:0 auto; }
+#goods .brands_goods li {float:left; padding-left:20px; position:relative; left:-30px;}
+#goods .brands_goods li a {font-size:17px;}
+#goods .brands_goods span {text-decoration:underline;}
+
+#goods .best_list {width:1200px; height:1900px; }
+#goods .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#goods .best_list li:nth-child(5),#goods .best_list li:nth-child(9),#goods.best_list li:nth-child(13) { clear: both; }
+#goods .best_list li a {padding-left:20px; }
+
+
+#goods .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#goods .new_name {font-weight: bold; font-size:14px;}
+#goods .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#goods .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#goods .sale_box {position:relative; left:195px; top:-75px;}
+#goods .heart {font-size:13px; float:right; margin-top:-75px; }
+#goods .heart span{position:relative; top:-2px; left:2px;}
+#goods .heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#goods .heart_icon span {position: relative; left:4px; }
+#goods .price {font-size:13px; padding-left:20px;}
+
+
+/*paging*/
+#goods .paging {text-align: center; margin:130px 0 150px 0;}
+#goods .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#goods .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#goods .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li.on {background:#758246; border:1px solid #758246;}
+#goods .paging li.on a {color:#fff;}
+ .paging {text-align: center; margin:130px 0 150px 0;}
+#woman .paging li {display: inline-block; border:1px solid #ccc; padding:5px 15px;}
+#goods .paging li:nth-child(1) {background:url('../images/best/paging_first.png') no-repeat center center;  border:0; cursor:pointer; text-indent:-9999px;}
+#goods .paging li:nth-child(2) {text-indent:-9999px; background:url('../images/best/paging_prev.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li:nth-child(8) {text-indent:-9999px; background:url('../images/best/paging_next.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li:nth-child(9) {text-indent:-9999px; background:url('../images/best/paging_last.png') no-repeat center center;  border:0; cursor:pointer; }
+#goods .paging li.on {background:#758246; border:1px solid #758246;}
+#goods .paging li.on a {color:#fff;}
+
+
+
+
+/*베스트*/
+#home {width:1200px; margin: 0 auto; }
+#home .menu {left:50%; margin-left:-350px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .best {font-weight:bold;}
+
+#best {width:1200px; height: 2350px; margin-left:55%; transform:translate(-55%, 6%); }
+#best h2 {font-size:40px; font-weight: lighter; text-align: center; margin:0 50px 50px 0;}
+
+#best .best_list {width:1200px; height:1900px; }
+#best .best_list li {float:left; padding-left: 25px; margin-top: 60px; }
+#best .best_list li:nth-child(5),#best .best_list li:nth-child(9),#best .best_list li:nth-child(13) { clear: both; }
+#best .best_list li a {padding-left:20px; }
+
+
+#best .brand_name {font-size:13px;  color:#395697; padding-left:20px;}
+#best .new_name {font-weight: bold; font-size:14px;}
+#best .sale {color:#6B6B6B; text-decoration: line-through; font-size:13px; padding-left:20px;}
+#best .sale_price {font-size:13px; padding-left:90px; margin-top: -26px;}
+#best .sale_box {position:relative; left:195px; top:-75px;}
+#best .heart {font-size:13px; float:right; margin-top:-75px; }
+#best .heart span{position:relative; top:-2px; left:2px;}
+#best .heart_icon {font-size:13px; padding-left:200px; margin-top: -80px;}
+#best .heart_icon span {position: relative; left:4px; }
+#best .price {font-size:13px; padding-left:20px;}
+
+
+
+/*이벤트*/
+#home {width:1200px; margin: 0 auto;}
+#home .menu {left:50%; margin-left:-160px;  }
+#home .menu li {float: left; padding-left: 15px; margin-top:-30px;}
+#home .menu li a {font-size:17px; }
+#home .home {font-weight:lighter;}
+#home .arrow {margin-top: 3px;}
+#home .event {font-weight:bold;}
+
+
+#event {width: 1400px; height: 1300px; margin-left: 50%; transform:translate(-50%, 10%);}
+#event h2 {font-size:40px; font-weight: lighter; text-align: center; padding-bottom: -50px;}
+
+#event .event_list {margin-left: 150px;}
+#event .event_list li {float:left; margin-left: 20px; padding-top:110px; }
+#event .text {font-size: 20px; font-weight: bold; padding-top: 15px;}
+#event .date {font-size: 18px; padding-top:15px;}
+
+#event .more {position: absolute; left:670px; top:1050px; font-size:20px;  }
+
+
+
+
+/*footer*/
+#footer{height:320px; background:#F2F2F2; position:relative; top:50px;}
+#footer .footer_inner {width:1200px; height:280px;  margin:0 auto; position:relative; bottom:1100px;}
+#footer .notice {font-size:18px;}
+#footer .notice li{float:left; padding:50px;}
+#footer .notice > li > a {position:relative; bottom:-1080px; left:-50px;}
+#footer .slogan {position:relative; bottom:-1130px; left:550px;}
+#footer .slogan span {float:right; position:absolute; left:585px;}
+
+
+#footer .footer_logo {position: absolute; left:0px; top:1250px;}
+#footer .util {font-weight:bold; font-size:15px;}
+#footer .util li {float: left; padding-left:30px;}
+#footer .util li a {position:relative; left:-200px; top:1230px;}
+
+#footer .address {position:absolute; left:0px; top:1300px; font-size:13px; font-weight:lighter; word-spacing: 4px }
+#footer .address span {font-weight:bold; }
+
+
+#footer .copyright {position: absolute; left:0px; top:1390px; float:left; color:#707070; font-size:13px;}
+
+#footer .sns {margin: 0 auto;}
+#footer .sns > li {float:left;}
+#footer .sns > li > a {padding-left:15px; position:relative; right:-140px; bottom:-1300px}

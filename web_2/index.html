@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lipton</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+<script>
+   $(document).ready(function(){
+       $('.visual_slide').bxSlider({
+            auto:true 
+       });
+       
+          $('.mgnb_wrap').hide();
+        
+        $('.mgnb').click(function(){
+            $('.mgnb_wrap').fadeIn();
+        });
+        
+        $('.close').click(function(){
+            $('.mgnb_wrap').fadeOut();
+        });
+       
+   });    
+</script>
+</head>
+
+<body>
+    <header id="header">
+     <h1><a href="#"><img src="images/logo.png" alt="lipton"></a></h1>
+      
+        <ul class="util">
+          <li><a href="#"><img src="images/ico_global.png" alt="언어"></a></li>
+          <li><a href="#"><img src="images/search.png" alt="검색"></a></li>
+        </ul>
+        
+        
+        <ul class="gnb">
+           <li><a href="#">브랜드 소개</a></li>
+            <li><a href="#">제품</a></li>
+            <li><a href="#">레시피</a></li>
+            <li><a href="#">광고</a></li>
+            <li><a href="#">홍보센터</a></li>
+        </ul>
+        
+        
+    <p class="mgnb"><a href="#"><img src="images/gnb.png" alt="menu"></a></p>
+    <div class="mgnb_wrap">
+    <p class="close"><a href="#">close</a></p>
+        <ul class="gnb_mobile">
+            <li><a href="#">브랜드 소개</a></li>
+            <li><a href="#">제품</a></li>
+            <li><a href="#">레시피</a></li>
+            <li><a href="#">광고</a></li>
+            <li><a href="#">홍보센터</a></li>
+         </ul>
+    </div>
+</header>
+    
+    
+<section id="main_visual">
+    <ul class="visual_slide">
+      <li class="banner1"></li>
+      <li class="banner2"></li>
+    </ul>
+</section>
+
+<section id="brand">
+    <div class="tbox">
+        
+       <h1><img src="images/Lipton_img.png" alt="Lipton"></h1>
+        <div class="text">
+      <p>세계적인 차 브랜드 립톤은 1880년<br>
+       영국 토마스 립톤 경에 의해 시작되었습니다.</p>
+        
+       <p>홍차를 비롯해 녹차(Green Tea), 아이스티(Iced Tea),<br>
+        허브(Herb Tea) 등을 제조.판매하는 영국의 차 브랜드입니다.</p>
+        
+        <p>현재 전 세계 150여 개국에서 사랑 받으며 소비자가<br>
+        더 좋은 품질의 차를 마시도록 끊임없는 연구를 하고<br>
+        있습니다.</p>
+        </div>
+        
+        <p class="img"><img src="images/brand_img.png" alt="립톤 브랜드"></p>
+        </div>
+  
+</section>
+    
+<section id="product">
+<h1>PRODUCT</h1>
+<p class="text">립톤의 다양한 맛과 제품을 소개합니다.</p>
+
+<ul class="product_list">
+  <li>
+    <a href="#">
+        <img src="images/product_1.png" alt="스페셜 블렌드 블랙티">
+        <h3>스페셜 블렌드 블랙티</h3>
+      </a>
+  </li>
+   
+  <li>
+    <a href="#">
+        <img src="images/product_2.png" alt="스페셜 블렌드 그린티">
+        <h3>스페셜 블렌드 그린티</h3>
+      </a>
+  </li>
+    
+  <li>
+    <a href="#">
+        <img src="images/product_3.png" alt="아이스티 복숭아">
+        <h3>아이스티 복숭아</h3>
+      </a>
+  </li>
+    
+    <li class="product_4">
+    <a href="#">
+        <img src="images/product_4.png" alt="립톤 밀크티">
+        <h3 class="txt">립톤 밀크티</h3>
+          </a>
+    </li>
+</ul>
+    
+    <p class="btn_detail"><a href="#">자세히 보기</a></p>
+</section>
+    
+    
+<section id="recipe">
+<h1>RECIPE</h1>
+<p class="text">나만의 립톤 레시피로 새로운 립톤 아이스티를 만들어보세요.</p>
+
+<ul class="recipe_list">
+  <li>
+    <a href="#">
+        <img src="images/recipe_1.png" alt="레몬 오렌지 아이스티">
+        <h3>레몬 오렌지 아이스티</h3>
+      </a>
+  </li>
+   
+  <li>
+    <a href="#">
+        <img src="images/recipe_2.png" alt="파인 코코넛 쥬스">
+        <h3>파인 코코넛 쥬스</h3>
+      </a>
+  </li>
+    
+  <li>
+    <a href="#">
+        <img src="images/recipe_3.png" alt="말차 레몬에이드">
+        <h3>말차 레몬에이드</h3>
+      </a>
+  </li>
+    
+    <li  class="recipe_4">
+    <a href="#">
+        <img src="images/recipe_4.png" alt="자몽 에이드">
+      <h3 class="txt">자몽 에이드</h3>
+          </a>
+    </li>
+</ul>
+    
+    <p class="btn_detail"><a href="#">자세히 보기</a></p>
+</section>
+    
+<section id="sns">
+    <h1>SNS</h1>
+    <p class="text">인스타그램 계정 @lipton_kr을 팔로우하고 다양한 소식을 받아보세요.</p>
+    
+    <ul class="sns_list">
+         <li><a href="#"><img src="images/sns1.png" alt="sns 사진1"></a></li>
+         <li><a href="#"><img src="images/sns2.png" alt="sns 사진2"></a></li>
+         <li><a href="#"><img src="images/sns3.png" alt="sns 사진3"></a></li>
+         <li><a href="#"><img src="images/sns4.png" alt="sns 사진4"></a></li>
+         <li><a href="#"><img src="images/sns5.png" alt="sns 사진5"></a></li>
+         <li><a href="#"><img src="images/sns6.png" alt="sns 사진6"></a></li>
+    </ul>
+</section>
+    
+<footer id="footer">
+    <ul class="footer_list">
+        <li><a href="#">문의처</a></li>
+        <li><a href="#">법적고지</a></li>
+    </ul>
+    
+    <p>COPYRIGHT © 2017 ALL RIGHTS RESERVED</p>
+    
+    <ul class="sns">
+    <li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+        <li><a href="#"><img src="images/instagram.png" alt="인스타그램"></a></li>
+        <li><a href="#"><img src="images/youtube.png" alt="유튜브"></a></li>
+    </ul>
+</footer>
+</body>
+</html>
