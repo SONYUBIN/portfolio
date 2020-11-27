@@ -86,13 +86,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: url('../img/main_background.jpg') no-repeat center center;
-    background: after url('../img/main_background.jpg');
-    height: 840px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    background: url('../img/main_background_4.jpg') no-repeat center top;
+    background-size: contain;
+    height: 50vw;
 }
 
 
@@ -183,7 +179,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 section h2 {
@@ -207,7 +203,7 @@ section.success a.active {
 
 
 section .col-lg-4 {padding-top:20px;}
-section .photo {padding-left:130px;}
+section .photo {}
 
 
 
@@ -893,3 +889,15 @@ footer .footer-below {
     font-size: 18px;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 768px) {
+    .photo {
+        text-align: center;
+    }
+    .profile { text-align: center; }
+    .sns { text-align: center; }
+}
+
+
+
